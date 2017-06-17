@@ -1,0 +1,40 @@
+.joinus .joinus-header{ margin:20px 0px;}
+.joinus .joinus-header p{
+	text-align: center;
+	font-size: 15px;
+}
+.joinus .joinus-header span{
+	font-size: 30px;
+	font-family: "微软雅黑";
+	color: #000000;
+}
+.joinus .joinus-body img{
+	float: left;
+	margin-right: 6px;
+}
+
+.joinus .joinus-body p{
+	text-indent:2em;
+	font-size: 15px;
+	line-height: 1.8;
+    padding: 0;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: normal;
+    overflow: hidden;
+    text-align: left;
+}
+.contact{
+	margin-top: 20px;
+	color: #666666;
+	clear: both;
+}
+.contact-ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.contact-ul li{
+	height: 30px;
+	line-height: 30px;
+}
