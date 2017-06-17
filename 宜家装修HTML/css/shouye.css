@@ -3,9 +3,10 @@
 /*导航*/
 .siteNavWrap .right li .current{ border-bottom: 3px solid #1899f3; color:#1899f3;}
 /*banner*/
-.bannerwrap{ height:300px; background: #000 url(../images/banner.png) no-repeat center center; cursor: pointer; background-size: 100% 100%; position: relative;}
-.bannerwrap .lunbo{ height: 15px;  width:80px; position: absolute; transform: translate(-50%, -50%); bottom: 0px; left: 50%;}
-.bannerwrap .lunbo span{ width: 15px; height: 15px; background: #ccc; border-radius: 50%; display: block; float: left; margin-right: 5px;}
+.banner-wrapper{ background-color: #000; height:300px;}
+.banner-wrapper .banner{ background: url(../images/banner.png) no-repeat center center; cursor: pointer; background-size: 100% 100%; position: relative; height: 300px;}
+.banner-wrapper .lunbo{ height: 15px;  width:80px; position: absolute; transform: translate(-50%, -50%); bottom: 0px; left: 50%;}
+.banner-wrapper .lunbo span{ width: 15px; height: 15px; background: #ccc; border-radius: 50%; display: block; float: left; margin-right: 5px;}
 
 /*分类*/
 .fenleiwrap{
@@ -147,7 +148,8 @@
 .fuwuchengnuowrap h2{color: #333;font-size: 30px;text-align: center;margin-top: 76px;}
 .fuwuchengnuowrap p{font-size: 16px;color:#999;margin-bottom: 8px;text-align: center;}
 .fuwuchengnuowrap .icon_wrap{ height: 406px; margin-top: 40px; display: flex; display: -webkit-flex;}
-.fuwuchengnuowrap .icon_wrap div{ flex: 1; -webkit-flex: 1; height:406px; margin: 0px 32px;}
+.fuwuchengnuowrap .icon_wrap>div{ flex: 1; -webkit-flex: 1; height:406px; margin: 0px 32px; overflow: hidden;}
+.fuwuchengnuowrap .icon_wrap>div img{ width: 100%;}
 .fuwuchengnuowrap .icon_wrap h3{ font-weight:bold; font-size: 24px; color: #000; text-align: center; margin-top: 80px;} 
 .fuwuchengnuowrap .icon_wrap .icon_wenzi{ color: #333; font-size: 14px; margin-top: 22px;}
 /*服务承诺*/

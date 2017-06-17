@@ -1,14 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
+body{overflow-x: hidden;}
 /*导航*/
 .siteNavWrap{ height: 100px; }
 .siteNavWrap h1{width: 318px; height: 100px; float: left; }
 .siteNavWrap h1 a{ width: 318px;  height:100px; background: url(../images/logo.png) no-repeat; display: block;}
-.siteNavWrap .right{ width: 640px; height: 70px;/* background: #ccc; */float: right;}
-.siteNavWrap .right li{ float: left; height: 100px; }
-.siteNavWrap .right li a{ padding:0 4px; height:34px; margin:36px 48px 0px 0px;font-size: 16px; color: #333;  display: block;}
-.siteNavWrap .right li .nomargin{margin-right: 0px;}
-.siteNavWrap .right li a:hover{ border-bottom: 3px solid #1899f3; color:#1899f3;}
+.siteNavWrap .left{ height: 70px; }
+.siteNavWrap .left li{ display: inline-block; height: 100px; }
+.siteNavWrap .left li a{ width: 100px; text-align: center; height: 70px; line-height: 100px; font-size: 16px; color: #333;  display: block;}
+.siteNavWrap .left li .nomargin{margin-right: 0px;}
+.siteNavWrap .left li a:hover{ border-bottom: 3px solid #1899f3; color:#1899f3;}
 /*导航*/
 /*footer*/
 .footer{background: #323232; overflow: hidden; color: #fff; padding: 34px 0px;}
@@ -22,8 +23,11 @@
 	width: 960px;
 	min-width: 960px;
 	margin: 0px auto;
+	height: 100%;
 }
-
+.container-1080{
+	width: 1080px;
+}
 
 
 
