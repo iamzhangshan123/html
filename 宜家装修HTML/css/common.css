@@ -28,7 +28,10 @@ body{overflow-x: hidden;}
 .container-1080{
 	width: 1080px;
 }
-
+.current{
+	border-bottom: 3px solid #1899f3;
+    color: #1899f3;
+}
 
 
 

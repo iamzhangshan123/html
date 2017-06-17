@@ -4,7 +4,7 @@
 .siteNavWrap .left li .current{ border-bottom: 3px solid #1899f3; color:#1899f3;}
 /*导航*/
 /*banner*/
-.bannerwrap{ height:500px; margin: 0 auto; background: #000 url(../images/banner.png) no-repeat center center; cursor: pointer;}
+.bannerwrap{ height:500px; margin: 0 auto; background: #FFFFFF url(../images/banner.png) no-repeat center center; cursor: pointer;}
 /*维修*/
 .weixiu{ height: 372px; }
 .weixiu .weixiu_top{ height: 136px;  overflow: hidden;  border-bottom: 1px dashed #999; margin: 0 auto;}

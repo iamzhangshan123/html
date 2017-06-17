@@ -3,7 +3,7 @@
 /*导航*/
 .siteNavWrap .right li .current{ border-bottom: 3px solid #1899f3; color:#1899f3;}
 /*banner*/
-.banner-wrapper{ background-color: #000; height:300px;}
+.banner-wrapper{ background-color: #FFFFFF; height:300px;}
 .banner-wrapper .banner{ background: url(../images/banner.png) no-repeat center center; cursor: pointer; background-size: 100% 100%; position: relative; height: 300px;}
 .banner-wrapper .lunbo{ height: 15px;  width:80px; position: absolute; transform: translate(-50%, -50%); bottom: 0px; left: 50%;}
 .banner-wrapper .lunbo span{ width: 15px; height: 15px; background: #ccc; border-radius: 50%; display: block; float: left; margin-right: 5px;}
